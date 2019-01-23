@@ -16,3 +16,8 @@ about how data is stored and retrieved on a server.
 
 I am excited about the class because it will give me the opportunity to learn things step by
 step. In the lab I have picked up on things here and there, but I don't get the full picture.
+
+Our Utah Snow Viwere App will hopefully turn out! The snow data available is pretty coarse
+resolution, so it is difficult to show how it affects small watersheds. We will probably use
+the NRCS hydrologic regions since they are larger areas. We also hope to use SNOTEL gauges, 
+but we have not decided exactly how to do so yet.
