@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- head definitions go here -->
+		<title>Length Converter</title>
+		<!–– Created by Chris Edwards; Feb 7, 2019; BYU CEEn 514 ––>
     </head>
 
     <body>
-      <h1>Linear Unit Converter (UNDER CONSTRUCTION)</h1>
-      <h2>Created Feb 7, 2019 by Chris Edwards</h2>
+	
+		<script src="lengthconverter.js"></script>
 
-      <p>Enter a value and then select the units to convert.</p>
+		<h1>Linear Unit Converter (UNDER CONSTRUCTION)</h1>
+		<h2>Created Feb 7, 2019 by Chris Edwards</h2>
 
-      <form>
-      Value: <input type="number" id="value" onchange="convertUnits()"><br>
-      </form>
+		<p>Enter a value and then select the units to convert.</p>
 
-      <p>
-      <label> From: </label>
-      <select id="from" onchange="convertUnits()">
-        <option value="0">Inches</option>
-        <option value="1">Feet</option>
-        <option value="2">Yards</option>
-        <option value="3">Miles</option>
-        <option value="4">Meters</option>
-        <option value="5">Kilometers</option>
-      </select>
-      </p>  
+		<form>
+			Value: <input type="number" id="value"><br>
+		</form>
 
-      <p>
-      <label> To: </label>
-      <select id="to" onchange="convertUnits()">
-        <option value="0">Inches</option>
-        <option value="1">Feet</option>
-        <option value="2">Yards</option>
-        <option value="3">Miles</option>
-        <option value="4">Meters</option>
-        <option value="5">Kilometers</option>
-      </select>
-      </p> 
+		<p>
+		<label> From: </label>
+		<select id="from">
+			<option value="0">Inches</option>
+			<option value="1">Feet</option>
+			<option value="2">Yards</option>
+			<option value="3">Miles</option>
+			<option value="4">Meters</option>
+			<option value="5">Kilometers</option>
+		</select>
+		</p>  
 
-      <div id="finalAnswer"></div>
+		<p>
+		<label> To: </label>
+		<select id="to">
+			<option value="0">Inches</option>
+			<option value="1">Feet</option>
+			<option value="2">Yards</option>
+			<option value="3">Miles</option>
+			<option value="4">Meters</option>
+			<option value="5">Kilometers</option>
+		</select>
+		</p> 
+
+		<button onclick="convertUnits()">Convert</button>
+		  
+		<div id="finalAnswer"></div>
       
     </body>
 </html>   
