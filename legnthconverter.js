@@ -22,5 +22,5 @@ function convertUnits() {
 
     let resultHTML = `<h2>${answerText}</h2>`;
 
-    $("#finalAnswer").html(resultHTML);
+    $("finalAnswer").html(resultHTML);
 }
