@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- head definitions go here -->
+    </head>
+
+    <body>
+      <h1>Linear Unit Converter (IN CONSTRUCTION)</h1>
+      <h2>Created Feb 7, 2019 by Chris Edwards</h2>
+
+      <p>Enter a value and then select the units to convert.</p>
+
+      <form>
+      Value: <input type="number" id="value" onchange="convertUnits()"><br>
+      </form>
+
+      <p>
+      <label> From: </label>
+      <select id="from" onchange="convertUnits()">
+        <option value=0>Inches</option>
+        <option value=1>Feet</option>
+        <option value=2>Miles</option>
+        <option value=3>Centimeters</option>
+        <option value=4>Meters</option>
+        <option value=5>Kilometers</option>
+      </select>
+      </p>  
+
+      <p>
+      <label> To: </label>
+      <select id="to" onchange="convertUnits()">
+        <option value="0">Inches</option>
+        <option value="1">Feet</option>
+        <option value="2">Yards</option>
+        <option value="3">Miles</option>
+        <option value="4">Meters</option>
+        <option value="5">Kilometers</option>
+      </select>
+      </p> 
+
+      <div id="finalAnswer"></div>
+      
+    </body>
+</html>   
