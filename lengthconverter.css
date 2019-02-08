@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  size: 12px;
+  font-family: Cambria;
+}
+
+h3 {
+  text-align: center;
+  color: #FFEEDF;
+  size: 8px;
+  font-family: Tahoma;
+}
+
+h4 {
+  text-align: center;
+  color: #FFEEDF;
+  size: 2px;
+  font-family: times;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-family: Cambria;
+  color:white;
+}
+
+form {
+  text-align: center;
+  font-family: Cambria;
+  color:white;
+}
+
+body {
+  background-image: url(https://wallpapersite.com/images/pages/pic_w/8000.jpg);
+  background-size: 100%
+}
