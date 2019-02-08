@@ -8,19 +8,24 @@
     <body>
 	
 		<script src="lengthconverter.js"></script>
-
-		<h1>Linear Unit Converter (UNDER CONSTRUCTION)</h1>
-		<h2>Created Feb 7, 2019 by Chris Edwards</h2>
-
-		<p>Enter a value and then select the units to convert.</p>
-
+		<link rel="stylesheet" type="text/css" href="./lengthconverter.css"/>
+		
+		<h1>Linear Unit Converter</h1>
+		<h3>Created Feb 7, 2019 by Chris Edwards</h3>
+		
+		<br>
+		
+		<h2>Enter a value and then select the units to convert.</h2>
+		<h4>Note: It works better to go from large units to small units.</h4>
+		<br>
+		
 		<form>
 			Value: <input type="number" id="value"><br>
 		</form>
 
 		<p>
 		<label> From: </label>
-		<select id="from">
+		<select id="fromUnit">
 			<option value="0">Inches</option>
 			<option value="1">Feet</option>
 			<option value="2">Yards</option>
@@ -28,11 +33,9 @@
 			<option value="4">Meters</option>
 			<option value="5">Kilometers</option>
 		</select>
-		</p>  
-
-		<p>
+		
 		<label> To: </label>
-		<select id="to">
+		<select id="toUnit">
 			<option value="0">Inches</option>
 			<option value="1">Feet</option>
 			<option value="2">Yards</option>
@@ -42,9 +45,13 @@
 		</select>
 		</p> 
 
-		<button onclick="convertUnits()">Convert</button>
+		<p>
+		<button onclick="linearConversion()">Convert</button>
+		</p> 
 		
-		<div id="finalAnswer"></div>
-      
+		<h2>
+		<div id="finalAnswer">(Answere will show up here)</div>
+		</h2>
+		
     </body>
 </html>   
