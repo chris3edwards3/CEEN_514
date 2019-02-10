@@ -102,7 +102,7 @@ function initMap() {
 	// Tennis Courts
 	var tennisWindow = new google.maps.InfoWindow({
 		content: '<h1>Windsor Tennis Courts</h1>'+
-		'<p>One of the best courts around. Most of the time it is empty, the surface is high-quality, and the lights work swell. This is where I almost became Roger Federer--Orem version.</p>',
+		'<p>One of the best courts around. Most of the time it is empty, the surface is high-quality, and the lights work swell. This is where I almost became Roger Federer, Orem version.</p>',
 		maxWidth: 300
 	});
 	var tennis = new google.maps.Marker({
