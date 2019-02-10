@@ -1,0 +1,23 @@
+h1 {
+  font-size: 24px;
+  color: navy;
+  font-weight: bold;
+  font-family: Tahoma;
+  background-color: #eff5ff;
+}
+
+p {
+  font-family: Cambria;
+  size: 16px;
+  color: #636363;
+}
+
+#myMap {
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
