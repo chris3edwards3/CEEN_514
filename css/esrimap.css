@@ -1,6 +1,6 @@
 html, body, #viewDiv {
 	width: 100%;
-	height: 99%;
+	height: 98.2%;
 	padding: 0;
 	margin: 0;
 	background-color: #2f5799;
@@ -14,16 +14,4 @@ h1 {
 	text-align: center;
 	height: 1.8%;
 }
-
-
-symbol: {
-	type: "text",
-	color: "#00E2FF",
-	text: "\ue613",
-	font: {
-		size: 20,
-		family: "CalciteWebCoreIcons"
-	}
-}
-
 
