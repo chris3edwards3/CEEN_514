@@ -2,44 +2,19 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content=initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>My First Esri Web Map</title>
+		<meta name="viewport" content-initial-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<title>ESRI Javascript Map</title>
 		
 		<link rel="stylesheet" type="text/css" href="./css/esrimap.css"/>
-		<link rel="stylesheet" href="https://js.arcgis.com/3.27/esri/css/esri.css">
-		<script src="https://js.arcgis.com/3.27/"></script>
-		<script>
-			var map;
-			require([
-				"dojo/parser",
-				"dojo/ready",
-				"dijit/layout/BorderContainer",
-				"dijit/layout/ContentPane",
-				"dojo/dom",
-				"esri/map", 
-				"dojo/domReady!"
-			], function(
-				parser,
-				ready,
-				BorderContainer,
-				ContentPane,
-				dom,
-				Map
-			) {
-							
-				map = new Map("map", {
-					basemap: "osm",
-					center: [0, 5],
-					zoom: 2
-				});
-			});
-		</script>
-	</head>
-	
-	<body>
-		<h1>Top 10 Places to Visit - Chris Edwards - Feb 14, 2019</h1>
-		<div id="map"></div>	
-	</body>
-</html>	
-	
+		<link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
 		
+		<script src="https://js.arcgis.com/4.8/"></script>
+		<script src="./javascript/esrimap.js"></script>
+	</head>
+
+	<body>
+		<h1>*** Top 10 Places to Visit | Chris Edwards | Feb 14, 2019 | ArcGIS Javascript ***</h1>
+		<div id="viewDiv"></div>
+	</body>
+</html>
