@@ -58,7 +58,7 @@ require([
 		"Washington DC"
 	];
 	
-	let image_list = [
+	let content_list = [
 		"My Dad served his mission in Thailand, so I've always wanted to go." +
 			"<img alt='Thailand img' width=100% src='http://static.asiawebdirect.com/m/bangkok/portals/chiangmai-bangkok-com/shared/teasersL/top10-attractions/teaserMultiLarge/imageHilight/top-ten_cm.jpg'>",
 		"I've always been fascinated by the Galapagos Islands. It is a very unique place and the history is pretty cool." +
@@ -100,7 +100,7 @@ require([
 			},
 			popupTemplate: {
 				title: name_list[i],
-				content: image_list[i]	
+				content: content_list[i]	
 			}
 		});
 	};
