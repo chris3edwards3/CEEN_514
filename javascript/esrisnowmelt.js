@@ -6,7 +6,7 @@ require([
 ], function(
 	Map,
 	MapView,
-	Graphic,
+	//Graphic,
 	MapImageLayer
 ) {
 	// Add the map, specify the basemap.
