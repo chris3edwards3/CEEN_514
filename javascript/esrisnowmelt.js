@@ -7,7 +7,7 @@ require([
 	MapView,
 	MapImageLayer
 ) {
-	// Add the map, specify the basemap.
+	// Add the map and specify the basemap.
 	const map = new Map({
 		basemap: "osm"
 	});
@@ -23,7 +23,7 @@ require([
 		}
 	});
 
-    // This is the layer. In this case, the Snowmelt Raster and Watershed Shapefiles are on the same layer.
+    // This is the layer. In this case, the snowmelt raster and watershed shapefile are on the same layer.
     var layer = new MapImageLayer({
         url: "http://geoserver2.byu.edu/arcgis/rest/services/3_Toed_Sloth/Snowmelt/MapServer"
     });
