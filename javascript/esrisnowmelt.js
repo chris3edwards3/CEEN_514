@@ -1,20 +1,20 @@
 require([
 	"esri/Map",
 	"esri/views/MapView",
-	"esri/Graphic", // This part thanks to Kyler Ashby
+	"esri/Graphic", // I figured out this part thanks to Kyler Ashby's github
 	"esri/layers/MapImageLayer",
-	"esri/layers/support/Sublayer"
 ], function(
 	Map,
 	MapView,
 	Graphic,
-	MapImageLayer,
-	Sublayer
+	MapImageLayer
 ) {
+	// Add the map, specify the basemap.
 	const map = new Map({
 		basemap: "osm"
 	});
 
+	// This is the map view. See the css file for styling.
 	const view = new MapView({
 		container: "viewDiv",
 		map: map,
@@ -25,6 +25,7 @@ require([
 		}
 	});
 
+    // This is the layer. In this case, the Snowmelt Raster and Watershed Shapefiles are on the same layer.
     var layer = new MapImageLayer({
         url: "http://geoserver2.byu.edu/arcgis/rest/services/3_Toed_Sloth/Snowmelt/MapServer"
     });
