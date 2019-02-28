@@ -1,7 +1,7 @@
 require([
 	"esri/Map",
 	"esri/views/MapView",
-	"esri/Graphic", // I figured out this part thanks to Kyler Ashby's github
+	//"esri/Graphic", // I figured out this part thanks to Kyler Ashby's github
 	"esri/layers/MapImageLayer",
 ], function(
 	Map,
