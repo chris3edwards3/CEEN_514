@@ -25,7 +25,7 @@ require([
 
     // This is the layer. In this case, the snowmelt raster and watershed shapefile are on the same layer.
     var layer = new MapImageLayer({
-        url: "http://geoserver2.byu.edu/arcgis/rest/services/3_Toed_Sloth/Snowmelt/MapServer"
+        url: "https://geoserver2.byu.edu/arcgis/rest/services/3_Toed_Sloth/Snowmelt/MapServer"
     });
     map.add(layer);  // adds the layer to the map
 });
